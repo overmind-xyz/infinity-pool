@@ -169,7 +169,7 @@
         https://github.com/aptos-labs/aptos-core/blob/main/aptos-move/framework/aptos-framework/doc/resource_account.md#resource-accounts-to-manage-liquidity-pools
 
     Math: 
-        When perform liquidity pool math calculations, values are cast to u128 to avoid overflow. 
+        When performing liquidity pool math calculations, values are cast to u128 to avoid overflow. 
         In production, it is best to check that the result of the math calculation is not too big
         before casting back down to u64.
 
